@@ -28,6 +28,7 @@ mkdir -p /etc/libvirt/hooks/qemu.d/win10/release/end/
 
 #copy qemu and kvm.conf file
 cp hooks_folder/qemu /etc/libvirt/hooks/qemu
+cp hooks_folder/kvm.conf /etc/libvirt/hooks/
 
 #copy begin files
 cp hooks_folder/cpu_mode_performance.sh /etc/libvirt/hooks/qemu.d/win10/prepare/begin/
